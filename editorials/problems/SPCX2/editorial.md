@@ -1,3 +1,5 @@
+Title: SPCX2
+
 Difficulty: Medium.
 
 Prerequisites: Graph Theory, Depth First Search(DFS) or Disjoint Sets.
