@@ -21,7 +21,9 @@ export default function Home({ db }) {
                                 <td>{key}</td>
                                 <td>{db[key].title}</td>
                                 <td>{db[key].difficulty}</td>
-                                <Link href={`./problems/${key}`}><td>View editorial</td></Link> 
+                                <Link href={`/problems/${key}`} as={`${process.env.ASSET_PREFIX}/problems/${key}`}>
+                                    <td>View editorial</td>
+                                </Link> 
                             </tr>
                         ))
                     }
