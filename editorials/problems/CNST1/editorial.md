@@ -1,3 +1,5 @@
+Title: CNST1
+
 Difficulty: Easy.
 
 Prerequisites: Implementation, Graph Theory, BFS.
