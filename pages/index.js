@@ -35,7 +35,6 @@ export default function Home({ db }) {
 
 export async function getStaticProps() {
     const db = getDbData();
-    console.log(db);
     return {
         props: {
             db

@@ -30,8 +30,7 @@ export default class Editorial extends React.Component {
         })
     }
 
-    handleLanguageChange(event){        
-        const selectedLanguage = event.target.value;
+    handleLanguageChange(selectedLanguage){                
         this.setState({
             selectedLanguage
         })
@@ -45,19 +44,21 @@ export default class Editorial extends React.Component {
         return (
             <Layout>
                 <div className="jumbotron">
-                    <h3>Editorial</h3>
                     <div dangerouslySetInnerHTML={{ __html: this.props.editorialData.editorial }} />
                 </div>
-
-                <select id="languageSelector" onChange={ this.handleLanguageChange }>
+                <ul class="nav nav-tabs">
                     {
                         Object.keys(this.props.editorialData.solutions).map( lang => (
-                            <option key={lang} value={lang}>{this.languages[lang]}</option>
+                            <li key={lang} class="nav-item" onClick={() => {this.handleLanguageChange(lang)}}>
+                                <a class={`nav-link ${lang == this.state.selectedLanguage ? 'active' : ''}`} 
+                                   data-toggle="tab">
+                                       { this.languages[lang] }
+                                </a>
+                            </li>
                         ))
                     }
-                </select>
-
-                <SyntaxHighlighter language={this.editorLanguages[this.state.selectedLanguage]}>
+                </ul>
+                <SyntaxHighlighter showLineNumbers={true} language={this.editorLanguages[this.state.selectedLanguage]}>
                     { solutionCode }
                 </SyntaxHighlighter>
             </Layout>
@@ -76,7 +77,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     const editorialData = await getEditorialData(params.id);
-    console.log(editorialData);
     return {
         props: {
             editorialData

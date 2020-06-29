@@ -1,3 +1,7 @@
 body {
-    background-color: #f4f4f4 !important;
+    background-color: white !important;
+}
+
+.nav-item {
+    cursor: pointer;
 }
