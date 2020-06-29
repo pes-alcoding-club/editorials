@@ -1,32 +1,38 @@
 {
     "CNST1": {
         "id": "CNST1",
-        "title": "Constellation",
-        "difficulty": "easy"        
+        "title": "Binary Constellations",
+        "difficulty": "easy",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge/challenges/binary-constellations"
     },
     "CTD01": {
         "id": "CTD01",
         "title": "Code to Decode",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge/challenges/ctd01"
     },
     "EXPL1": {
         "id": "EXPL1",
         "title": "Exploring Planets",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge/challenges/exploring-planets"
     },
     "HACK1": {
         "id": "HACK1",
         "title": "HackX",
-        "difficulty": "easy"
+        "difficulty": "easy",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge/challenges/hackx"
     },
     "MARS1": {
         "id": "MARS1",
         "title": "Man Vs. Mars",
-        "difficulty": "hard"
+        "difficulty": "hard",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge/challenges/mars1"
     },
     "SPCX2": {
         "id": "SPCX2",
-        "title": "SpaceX Launch",
-        "difficulty": "medium"
+        "title": "Astronaut Pairs",
+        "difficulty": "medium",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge/challenges/astronaut-pairs"
     }
 }

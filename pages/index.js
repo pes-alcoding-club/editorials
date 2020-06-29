@@ -10,7 +10,8 @@ export default function Home({ db }) {
                     <tr>
                         <th scope="col">Problem ID</th>
                         <th scope="col">Problem title</th>
-                        <td scopr="col">Difficulty</td>
+                        <th scope="col">Difficulty</th>
+                        <th scope="col">Problem Link</th>
                         <th scope="col">Editorial</th>
                     </tr>
                 </thead>
@@ -21,6 +22,7 @@ export default function Home({ db }) {
                                 <td>{key}</td>
                                 <td>{db[key].title}</td>
                                 <td>{db[key].difficulty}</td>
+                                <a href={db[key].problem_url} target="_blank"><td>View Problem</td></a>
                                 <Link href={`/problems/${key}`} as={`${process.env.ASSET_PREFIX}/problems/${key}`}>
                                     <td>View editorial</td>
                                 </Link> 
