@@ -43,14 +43,17 @@ export default class Editorial extends React.Component {
         
         return (
             <Layout>
+                <button type="button" className="btn btn-link editorial-link">
+                    <a href={this.props.editorialData.problemData.problem_url} target="_blank">View Problem</a>
+                </button>
                 <div className="jumbotron">
                     <div dangerouslySetInnerHTML={{ __html: this.props.editorialData.editorial }} />
                 </div>
-                <ul class="nav nav-tabs">
+                <ul className="nav nav-tabs">
                     {
                         Object.keys(this.props.editorialData.solutions).map( lang => (
-                            <li key={lang} class="nav-item" onClick={() => {this.handleLanguageChange(lang)}}>
-                                <a class={`nav-link ${lang == this.state.selectedLanguage ? 'active' : ''}`} 
+                            <li key={lang} className="nav-item" onClick={() => {this.handleLanguageChange(lang)}}>
+                                <a className={`nav-link ${lang == this.state.selectedLanguage ? 'active' : ''}`} 
                                    data-toggle="tab">
                                        { this.languages[lang] }
                                 </a>
