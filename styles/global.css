@@ -5,3 +5,11 @@ body {
 .nav-item {
     cursor: pointer;
 }
+
+.editorial-link {
+    cursor: pointer;
+}
+
+.editorial-link:hover {
+    text-decoration: underline;
+}

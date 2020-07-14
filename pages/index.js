@@ -23,8 +23,8 @@ export default function Home({ db }) {
                                 <td>{db[key].title}</td>
                                 <td>{db[key].difficulty}</td>
                                 <a href={db[key].problem_url} target="_blank"><td>View Problem</td></a>
-                                <Link href={`/problems/${key}`} as={`${process.env.ASSET_PREFIX}/problems/${key}`}>
-                                    <td>View editorial</td>
+                                <Link href={`${process.env.ASSET_PREFIX}/problems/${key}`}>
+                                    <td className="editorial-link">View editorial</td>
                                 </Link> 
                             </tr>
                         ))
