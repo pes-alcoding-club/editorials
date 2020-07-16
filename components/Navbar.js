@@ -1,5 +1,8 @@
 const Navbar = () => (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="nav-link" href={`${process.env.ASSET_PREFIX}/`}>
+            <img src="/logo.jpg" width="80" height="70" alt="the alcoding club logo" />
+        </a>
         <a className="navbar-brand" href="#">Editorials</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

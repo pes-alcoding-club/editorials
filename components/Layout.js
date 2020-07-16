@@ -6,6 +6,7 @@ const Layout = (props) => (
         <Head>
             <title>Alcoding Club | Editorials</title>
             <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css"></link>
+            <link rel="shortcut icon" href="/favicon.ico" />
         </Head>
         <Navbar/>
         <div className="container">
