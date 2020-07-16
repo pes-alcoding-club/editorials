@@ -13,3 +13,7 @@ body {
 .editorial-link:hover {
     text-decoration: underline;
 }
+
+.navbar {
+    max-height: 80px;
+}
