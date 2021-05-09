@@ -34,5 +34,42 @@
         "title": "Astronaut Pairs",
         "difficulty": "medium",
         "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge/challenges/astronaut-pairs"
+    },
+    "MJJJO": {
+        "id": "MJJJO",
+        "title": "Mojo Jojo and Bubbles",
+        "difficulty": "easy",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/mjjjo"
+
+    },
+    "LZYFX": {
+        "id": "LZYFX",
+        "title": "The Quick Brown Fox",
+        "difficulty": "easy",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/the-quick-brown-fox-1"
+    },
+    "SCHAS": {
+        "id": "SCHSA",
+        "title": "Annual Day Assembly",
+        "difficulty": "medium",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/annual-day"
+    },
+    "GRPSTU": {
+        "id": "GRPSTU",
+        "title": "Grouping Students",
+        "difficulty": "medium",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/grouping-students-1"
+    },
+    "CNODE1": {
+        "id": "CNODE1",
+        "title": "Control Tower",
+        "difficulty": "hard",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/control-tower"
+    },
+    "NDMST": {
+        "id": "NDMST",
+        "title": "Non Dominant Sets",
+        "difficulty": "hard",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/non-dominant-sets"
     }
 }
