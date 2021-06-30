@@ -71,5 +71,11 @@
         "title": "Non Dominant Sets",
         "difficulty": "hard",
         "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/non-dominant-sets"
+    },
+    "ORAND":{
+        "id":"ORAND",
+        "title":"OR-AND",
+        "difficulty":"easy",
+        "problem_url":"https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/or-and-1"
     }
 }
