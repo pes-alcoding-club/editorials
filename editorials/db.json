@@ -72,10 +72,16 @@
         "difficulty": "hard",
         "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/non-dominant-sets"
     },
-    "ORAND":{
+    "ORAND": {
         "id":"ORAND",
         "title":"OR-AND",
         "difficulty":"easy",
         "problem_url":"https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/or-and-1"
+    },
+    "EVPAT1": {
+        "id": "EVPAT1",
+        "title": "Even Pattern",
+        "difficulty": "hard",
+        "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/even-pattern"
     }
 }
