@@ -11,6 +11,12 @@
     "difficulty": "easy",
     "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge/challenges/ctd01"
   },
+  "CRPTR": {
+    "id": "CRPTR",
+    "title": "Carpenter",
+    "difficulty": "easy",
+    "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/carpenter"
+  },
   "EXPL1": {
     "id": "EXPL1",
     "title": "Exploring Planets",
@@ -46,6 +52,12 @@
     "title": "The Quick Brown Fox",
     "difficulty": "easy",
     "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/the-quick-brown-fox-1"
+  },
+  "RPLNT": {
+    "id": "RPLNT",
+    "title": "Ross the Paleontologist",
+    "difficulty": "easy",
+    "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/ross-the-palaeontologist"
   },
   "SCHAS": {
     "id": "SCHSA",
