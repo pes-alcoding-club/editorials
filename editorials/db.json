@@ -11,12 +11,6 @@
     "difficulty": "easy",
     "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge/challenges/ctd01"
   },
-  "CRPTR": {
-    "id": "CRPTR",
-    "title": "Carpenter",
-    "difficulty": "easy",
-    "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/carpenter"
-  },
   "EXPL1": {
     "id": "EXPL1",
     "title": "Exploring Planets",
@@ -53,12 +47,6 @@
     "difficulty": "easy",
     "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/the-quick-brown-fox-1"
   },
-  "RPLNT": {
-    "id": "RPLNT",
-    "title": "Ross the Paleontologist",
-    "difficulty": "easy",
-    "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/ross-the-palaeontologist"
-  },
   "SCHAS": {
     "id": "SCHSA",
     "title": "Annual Day Assembly",
@@ -83,22 +71,34 @@
     "difficulty": "hard",
     "problem_url": "https://www.hackerrank.com/contests/alcoding-summer-challenge-2021/challenges/non-dominant-sets"
   },
+  "RPLNT": {
+    "id": "RPLNT",
+    "title": "Ross the Paleontologist",
+    "difficulty": "easy",
+    "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/ross-the-palaeontologist"
+  },
   "ORAND": {
     "id": "ORAND",
     "title": "OR-AND",
     "difficulty": "easy",
     "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/or-and-1"
   },
-  "EVPAT1": {
-    "id": "EVPAT1",
-    "title": "Even Pattern",
-    "difficulty": "hard",
-    "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/even-pattern"
+  "CRPTR": {
+    "id": "CRPTR",
+    "title": "Carpenter",
+    "difficulty": "easy",
+    "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/carpenter"
   },
   "BSCOL": {
     "id": "BSCOL",
     "title": "Travelling Students",
     "difficulty": "medium",
     "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/b-schools"
+  },
+  "EVPAT1": {
+    "id": "EVPAT1",
+    "title": "Even Pattern",
+    "difficulty": "hard",
+    "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/even-pattern"
   }
 }
