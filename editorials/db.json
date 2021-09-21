@@ -100,5 +100,11 @@
     "title": "Even Pattern",
     "difficulty": "hard",
     "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/even-pattern"
+  },
+  "FNDGM":{
+    "id":"FNDGM",
+    "title":"Find the Gem",
+    "difficulty":"easy",
+    "problem_url":"https://www.hackerrank.com/contests/alcoding-september-challenge/challenges/find-gem"
   }
 }
