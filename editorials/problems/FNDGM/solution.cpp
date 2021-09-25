@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@VarunMK 
-pes-alcoding-club
-/
-problems.bin
-Private
-5
-4
-14
-Code
-Issues
-Pull requests
-9
-Actions
-Projects
-Security
-Insights
-Settings
-problems.bin/problems/find_gem/solution.cpp
-@nihal-ramaswamy
-nihal-ramaswamy Added generator
-Latest commit 19be9bf 11 days ago
- History
- 1 contributor
-51 lines (42 sloc)  1.13 KB
-   
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
