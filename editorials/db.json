@@ -100,5 +100,47 @@
     "title": "Even Pattern",
     "difficulty": "hard",
     "problem_url": "https://www.hackerrank.com/contests/alcoding-june-challenge-2021/challenges/even-pattern"
+  },
+  "MXMIT":{
+    "id":"MXMIT",
+    "title":"Maximize Them",
+    "difficulty":"easy",
+    "problem_url":"https://www.hackerrank.com/contests/alcoding-september-challenge/challenges/maximize-them"
+  },
+  "SRTST":{
+    "id":"STRST",
+    "title":"Permutation Sort",
+    "difficulty":"easy",
+    "problem_url":"https://www.hackerrank.com/contests/alcoding-september-challenge/challenges/permutation-sort"
+  },
+  "ZRSTR":{
+    "id":"ZRSTR",
+    "title":"Zero Substring",
+    "difficulty":"easy",
+    "problem_url":"https://www.hackerrank.com/contests/alcoding-september-challenge/challenges/zero-substring"
+  },
+  "FNDGM":{
+    "id":"FNDGM",
+    "title":"Find Gem",
+    "difficulty":"medium",
+    "problem_url":"https://www.hackerrank.com/contests/alcoding-september-challenge/challenges/find-gem"
+  },
+  "PRPCS":{
+    "id":"PRPCS",
+    "title":"Parallel Processors",
+    "difficulty":"medium",
+    "problem_url":"https://www.hackerrank.com/contests/alcoding-september-challenge/challenges/parallel-processors"
+  },
+  "CNCTS":{
+    "id":"CNCTS",
+    "title":"Kingdom Cities",
+    "difficulty":"hard",
+    "problem_url":"https://www.hackerrank.com/contests/alcoding-september-challenge/challenges/kingdom-cities"
+  },
+  "DEORD1":{
+    "id":"DEORD1",
+    "title":"Decay Order",
+    "difficulty":"hard",
+    "problem_url":"https://www.hackerrank.com/contests/alcoding-september-challenge/challenges/decay-order"
   }
 }
